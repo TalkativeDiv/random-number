@@ -1,4 +1,4 @@
-import '/src/styles/style.css'
+import '/src/styles/styles.css'
 const app = document.getElementById('app');
 const appContent =
 `
@@ -7,7 +7,10 @@ const appContent =
 <input type="text" class="form__input" id = "txtMaxNum" placeholder="Enter a big number...">
 <label id = "lblRandInt">Random Number is: 0</label>
 <button class="btn btn__primary" id = "btnGen"><p>Genarate!</p></button>
+<br/>
+<div>Icons made by <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 </div>
+
 `
 app.innerHTML = appContent
 const txtMinNum = document.getElementById('txtMinNum')

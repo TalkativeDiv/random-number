@@ -105,3 +105,10 @@
 #lblRandInt{
   font-size: 2rem;
 }
+a{
+  color: var(--primary-dark);
+}
+
+input{
+  margin-left:7.5% ;
+}
