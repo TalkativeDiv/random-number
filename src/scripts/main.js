@@ -3,8 +3,8 @@ const app = document.getElementById('app');
 const appContent =
 `
 <div class="form">
-<input type="text" class="form__input" id = "txtMinNum" placeholder="Enter a small number...">
-<input type="text" class="form__input" id = "txtMaxNum" placeholder="Enter a big number...">
+<input type="number" class="form__input" id = "txtMinNum" placeholder="Enter a small number...">
+<input type="number" class="form__input" id = "txtMaxNum" placeholder="Enter a big number...">
 <label id = "lblRandInt">Random Number is: 0</label>
 <button class="btn btnGen" id = "btnGen"><p>Genarate!</p></button>
 <div class="repoContainer"><button type="button" id ="btnRepo" class="button">
