@@ -6,7 +6,9 @@
 
 - 💡 [Features](#features)
 - 👨‍💻 [Contributing](#contributing)
-
+- 🍻 Community:
+  - [⚡ Issues](https://github.com/TalkativeDiv/random-number/issues)
+  - [💬 Discustions](https://github.com/TalkativeDiv/random-number/discussions)
 - [💫 License](#license)
 
 ## 💡 Features
