@@ -13,8 +13,8 @@ let getRandomInt = (min, max) => {
 let showRandomInt = (min, max) =>{
   lblRandInt.innerText = "Random Number is: " + getRandomInt(min, max)
 } 
-btnGen.addEventListener('click', showRandomInt(txtMinNum.value,txtMaxNum.value))
-document.addEventListener('DOMContentLoaded', showRandomInt(1,100))
+btnGen.addEventListener('click', () => showRandomInt(txtMinNum.value,txtMaxNum.value))
+//document.addEventListener('DOMContentLoaded', showRandomInt(1,100))
 btnRepo.addEventListener('click', (e) =>{
   if(e.ctrlKey){window.open(repo)}
   else{window.location.href = repo}
